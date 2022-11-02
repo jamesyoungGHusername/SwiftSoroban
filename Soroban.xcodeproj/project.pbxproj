@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C473AA9C29132D070027394A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AA9B29132D070027394A /* AppDelegate.swift */; };
+		C473AA9E29132D070027394A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C473AA9D29132D070027394A /* GameScene.sks */; };
+		C473AAA029132D070027394A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C473AA9F29132D070027394A /* Actions.sks */; };
+		C473AAA229132D070027394A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAA129132D070027394A /* GameScene.swift */; };
+		C473AAA429132D070027394A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAA329132D070027394A /* GameViewController.swift */; };
+		C473AAA729132D070027394A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C473AAA529132D070027394A /* Main.storyboard */; };
+		C473AAA929132D080027394A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C473AAA829132D080027394A /* Assets.xcassets */; };
+		C473AAAC29132D080027394A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C473AAAA29132D080027394A /* LaunchScreen.storyboard */; };
+		C473AAB629132D080027394A /* SorobanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAB529132D080027394A /* SorobanTests.swift */; };
+		C473AAC029132D080027394A /* SorobanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AABF29132D080027394A /* SorobanUITests.swift */; };
+		C473AAC229132D080027394A /* SorobanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAC129132D080027394A /* SorobanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C473AAB229132D080027394A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C473AA9029132D070027394A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C473AA9729132D070027394A;
+			remoteInfo = Soroban;
+		};
+		C473AABC29132D080027394A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C473AA9029132D070027394A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C473AA9729132D070027394A;
+			remoteInfo = Soroban;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C473AA9829132D070027394A /* Soroban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soroban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C473AA9B29132D070027394A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C473AA9D29132D070027394A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C473AA9F29132D070027394A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		C473AAA129132D070027394A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C473AAA329132D070027394A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C473AAA629132D070027394A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C473AAA829132D080027394A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C473AAAB29132D080027394A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C473AAB129132D080027394A /* SorobanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SorobanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C473AAB529132D080027394A /* SorobanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorobanTests.swift; sourceTree = "<group>"; };
+		C473AABB29132D080027394A /* SorobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SorobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C473AABF29132D080027394A /* SorobanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorobanUITests.swift; sourceTree = "<group>"; };
+		C473AAC129132D080027394A /* SorobanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorobanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C473AA9529132D070027394A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AAAE29132D080027394A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AAB829132D080027394A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C473AA8F29132D070027394A = {
+			isa = PBXGroup;
+			children = (
+				C473AA9A29132D070027394A /* Soroban */,
+				C473AAB429132D080027394A /* SorobanTests */,
+				C473AABE29132D080027394A /* SorobanUITests */,
+				C473AA9929132D070027394A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C473AA9929132D070027394A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C473AA9829132D070027394A /* Soroban.app */,
+				C473AAB129132D080027394A /* SorobanTests.xctest */,
+				C473AABB29132D080027394A /* SorobanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C473AA9A29132D070027394A /* Soroban */ = {
+			isa = PBXGroup;
+			children = (
+				C473AA9B29132D070027394A /* AppDelegate.swift */,
+				C473AA9D29132D070027394A /* GameScene.sks */,
+				C473AA9F29132D070027394A /* Actions.sks */,
+				C473AAA129132D070027394A /* GameScene.swift */,
+				C473AAA329132D070027394A /* GameViewController.swift */,
+				C473AAA529132D070027394A /* Main.storyboard */,
+				C473AAA829132D080027394A /* Assets.xcassets */,
+				C473AAAA29132D080027394A /* LaunchScreen.storyboard */,
+			);
+			path = Soroban;
+			sourceTree = "<group>";
+		};
+		C473AAB429132D080027394A /* SorobanTests */ = {
+			isa = PBXGroup;
+			children = (
+				C473AAB529132D080027394A /* SorobanTests.swift */,
+			);
+			path = SorobanTests;
+			sourceTree = "<group>";
+		};
+		C473AABE29132D080027394A /* SorobanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C473AABF29132D080027394A /* SorobanUITests.swift */,
+				C473AAC129132D080027394A /* SorobanUITestsLaunchTests.swift */,
+			);
+			path = SorobanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C473AA9729132D070027394A /* Soroban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C473AAC529132D080027394A /* Build configuration list for PBXNativeTarget "Soroban" */;
+			buildPhases = (
+				C473AA9429132D070027394A /* Sources */,
+				C473AA9529132D070027394A /* Frameworks */,
+				C473AA9629132D070027394A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soroban;
+			productName = Soroban;
+			productReference = C473AA9829132D070027394A /* Soroban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C473AAB029132D080027394A /* SorobanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C473AAC829132D080027394A /* Build configuration list for PBXNativeTarget "SorobanTests" */;
+			buildPhases = (
+				C473AAAD29132D080027394A /* Sources */,
+				C473AAAE29132D080027394A /* Frameworks */,
+				C473AAAF29132D080027394A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C473AAB329132D080027394A /* PBXTargetDependency */,
+			);
+			name = SorobanTests;
+			productName = SorobanTests;
+			productReference = C473AAB129132D080027394A /* SorobanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C473AABA29132D080027394A /* SorobanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C473AACB29132D080027394A /* Build configuration list for PBXNativeTarget "SorobanUITests" */;
+			buildPhases = (
+				C473AAB729132D080027394A /* Sources */,
+				C473AAB829132D080027394A /* Frameworks */,
+				C473AAB929132D080027394A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C473AABD29132D080027394A /* PBXTargetDependency */,
+			);
+			name = SorobanUITests;
+			productName = SorobanUITests;
+			productReference = C473AABB29132D080027394A /* SorobanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C473AA9029132D070027394A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C473AA9729132D070027394A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C473AAB029132D080027394A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C473AA9729132D070027394A;
+					};
+					C473AABA29132D080027394A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C473AA9729132D070027394A;
+					};
+				};
+			};
+			buildConfigurationList = C473AA9329132D070027394A /* Build configuration list for PBXProject "Soroban" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C473AA8F29132D070027394A;
+			productRefGroup = C473AA9929132D070027394A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C473AA9729132D070027394A /* Soroban */,
+				C473AAB029132D080027394A /* SorobanTests */,
+				C473AABA29132D080027394A /* SorobanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C473AA9629132D070027394A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473AAA729132D070027394A /* Main.storyboard in Resources */,
+				C473AA9E29132D070027394A /* GameScene.sks in Resources */,
+				C473AAA929132D080027394A /* Assets.xcassets in Resources */,
+				C473AAAC29132D080027394A /* LaunchScreen.storyboard in Resources */,
+				C473AAA029132D070027394A /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AAAF29132D080027394A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AAB929132D080027394A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C473AA9429132D070027394A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473AAA229132D070027394A /* GameScene.swift in Sources */,
+				C473AAA429132D070027394A /* GameViewController.swift in Sources */,
+				C473AA9C29132D070027394A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AAAD29132D080027394A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473AAB629132D080027394A /* SorobanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AAB729132D080027394A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C473AAC029132D080027394A /* SorobanUITests.swift in Sources */,
+				C473AAC229132D080027394A /* SorobanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C473AAB329132D080027394A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C473AA9729132D070027394A /* Soroban */;
+			targetProxy = C473AAB229132D080027394A /* PBXContainerItemProxy */;
+		};
+		C473AABD29132D080027394A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C473AA9729132D070027394A /* Soroban */;
+			targetProxy = C473AABC29132D080027394A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C473AAA529132D070027394A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C473AAA629132D070027394A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C473AAAA29132D080027394A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C473AAAB29132D080027394A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C473AAC329132D080027394A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C473AAC429132D080027394A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C473AAC629132D080027394A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCBTW98MC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madScience.Soroban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C473AAC729132D080027394A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCBTW98MC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madScience.Soroban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C473AAC929132D080027394A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCBTW98MC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madScience.SorobanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soroban.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soroban";
+			};
+			name = Debug;
+		};
+		C473AACA29132D080027394A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCBTW98MC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madScience.SorobanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soroban.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soroban";
+			};
+			name = Release;
+		};
+		C473AACC29132D080027394A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCBTW98MC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madScience.SorobanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soroban;
+			};
+			name = Debug;
+		};
+		C473AACD29132D080027394A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XCBTW98MC4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madScience.SorobanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soroban;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C473AA9329132D070027394A /* Build configuration list for PBXProject "Soroban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C473AAC329132D080027394A /* Debug */,
+				C473AAC429132D080027394A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C473AAC529132D080027394A /* Build configuration list for PBXNativeTarget "Soroban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C473AAC629132D080027394A /* Debug */,
+				C473AAC729132D080027394A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C473AAC829132D080027394A /* Build configuration list for PBXNativeTarget "SorobanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C473AAC929132D080027394A /* Debug */,
+				C473AACA29132D080027394A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C473AACB29132D080027394A /* Build configuration list for PBXNativeTarget "SorobanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C473AACC29132D080027394A /* Debug */,
+				C473AACD29132D080027394A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C473AA9029132D070027394A /* Project object */;
+}
