@@ -18,6 +18,8 @@
 		C473AAB629132D080027394A /* SorobanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAB529132D080027394A /* SorobanTests.swift */; };
 		C473AAC029132D080027394A /* SorobanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AABF29132D080027394A /* SorobanUITests.swift */; };
 		C473AAC229132D080027394A /* SorobanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAC129132D080027394A /* SorobanUITestsLaunchTests.swift */; };
+		C473AAD029132DF80027394A /* Bead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AACF29132DF80027394A /* Bead.swift */; };
+		C473AAD2291339290027394A /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AAD1291339290027394A /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C473AABB29132D080027394A /* SorobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SorobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C473AABF29132D080027394A /* SorobanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorobanUITests.swift; sourceTree = "<group>"; };
 		C473AAC129132D080027394A /* SorobanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorobanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C473AACF29132DF80027394A /* Bead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bead.swift; sourceTree = "<group>"; };
+		C473AAD1291339290027394A /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		C473AA9A29132D070027394A /* Soroban */ = {
 			isa = PBXGroup;
 			children = (
+				C473AACE29132DCB0027394A /* Components */,
 				C473AA9B29132D070027394A /* AppDelegate.swift */,
 				C473AA9D29132D070027394A /* GameScene.sks */,
 				C473AA9F29132D070027394A /* Actions.sks */,
@@ -129,6 +134,15 @@
 				C473AAC129132D080027394A /* SorobanUITestsLaunchTests.swift */,
 			);
 			path = SorobanUITests;
+			sourceTree = "<group>";
+		};
+		C473AACE29132DCB0027394A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C473AACF29132DF80027394A /* Bead.swift */,
+				C473AAD1291339290027394A /* Board.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C473AAA229132D070027394A /* GameScene.swift in Sources */,
+				C473AAD029132DF80027394A /* Bead.swift in Sources */,
+				C473AAD2291339290027394A /* Board.swift in Sources */,
 				C473AAA429132D070027394A /* GameViewController.swift in Sources */,
 				C473AA9C29132D070027394A /* AppDelegate.swift in Sources */,
 			);
@@ -450,7 +466,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +495,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
